@@ -28,3 +28,11 @@ We benchmarked two classification architectures across a dataset of 44,000+ text
 2. **Stemming:** Leverages the Porter Stemmer algorithm to reduce words to their base grammatical roots (e.g., "running" to "run").
 3. **Vectorization:** Implements `CountVectorizer` with an `ngram_range=(1,3)` to capture multi-word structural phrases (unigrams, bigrams, trigrams) across a 5,000-word feature threshold.
 4. **Classification:** Feeds sparse matrix features into the trained models, outputting a binary classification verdict via mapped weights.
+
+## 📂 Dataset
+
+The dataset utilized for this project contains 44,000+ real and fake news text articles. Due to GitHub's file storage size limits, the raw data files are not hosted directly inside this repository. 
+
+You can publicly access, read about, and download the source dataset here:  
+
+[Kaggle: Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
